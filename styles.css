@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+/* set scroll behavior of the page when a link is clicked */
 }
 
 a {
@@ -23,11 +24,13 @@ a:visited {
 }
 a:hover {
   color: white;
+/* text will turn white when hovered over. */
 }
 
 body {
   font-family: "Courier New", Courier, monospace;
   background-color: #76afdd77;
+  /* set background color of the page along with the font. */
 }
 
 .static {
@@ -39,6 +42,7 @@ body {
 header {
   border-bottom: solid 1px;
   background-color: #f3ebe7;
+  /* set background color of the header */
 }
 
 header,
